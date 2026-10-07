@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - TEERAPAT UMABUMRUNG</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Prompt', 'Kanit', sans-serif, Arial;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .resume-container {
+            width: 800px;
+            background: #e6e6e6;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        }
+
+        /* Header Area */
+        .header {
+            display: flex;
+            height: 180px;
+            background-color: #333333;
+            color: white;
+        }
+
+        .profile-img-container {
+            width: 260px;
+            height: 100%;
+            background-color: #4a90e2; /* รูปภาพพื้นหลังตามต้นฉบับ */
+            overflow: hidden;
+        }
+
+        .profile-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .header-title {
+            flex: 1;
+            padding: 30px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .header-title h1 {
+            font-size: 38px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            line-height: 1.2;
+            text-transform: uppercase;
+        }
+
+        /* Main Content Body */
+        .main-content {
+            display: flex;
+            background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%);
+        }
+
+        /* Left Column */
+        .left-column {
+            width: 280px;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+
+        /* Right Column */
+        .right-column {
+            flex: 1;
+            padding: 20px 30px;
+            background-color: #ffffff;
+        }
+
+        /* Section Styling */
+        .section-title {
+            background-color: #2b2b2b;
+            color: white;
+            padding: 6px 15px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            display: inline-block;
+            width: 100%;
+        }
+
+        /* Contact Section */
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 13px;
+            color: #333;
+        }
+
+        .contact-item i {
+            width: 24px;
+            height: 24px;
+            background-color: #333;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-size: 11px;
+        }
+
+        /* Education & Skills Section */
+        .education-block, .skill-block, .about-text {
+            margin-bottom: 20px;
+            font-size: 13px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .education-item {
+            margin-bottom: 12px;
+        }
+
+        .education-item .year {
+            font-weight: bold;
+        }
+
+        .education-item ul, .skills-grid ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            font-size: 12px;
+        }
+
+        /* Table Styling for Projects */
+        .project-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-size: 13px;
+        }
+
+        .project-table td {
+            padding: 6px 0;
+            vertical-align: top;
+        }
+
+        .project-table .year-col {
+            width: 110px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        /* Work Experience */
+        .job-block {
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .job-role {
+            font-weight: 500;
+            color: #444;
+            margin-bottom: 4px;
+        }
+
+        .job-block ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: #555;
+        }
+
+        /* Languages */
+        .language-list ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <!-- Header -->
+    <div class="header">
+        <div class="profile-img-container">
+            <!-- ใส่ปุ่มรูปภาพของคุณที่นี่ -->
+            <img src="profile.jpg" alt="Teerapat Umabumrung">
+        </div>
+        <div class="header-title">
+            <h1>TEERAPAT<br>UMABUMRUNG</h1>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Left Column -->
+        <div class="left-column">
+            <!-- Contact -->
+            <div class="section-title">CONTACT</div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>064-341-4978</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>teerapatzee01@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-line"></i>
+                <span>seacpt__2003</span>
+            </div>
+
+            <br>
+
+            <!-- Education -->
+            <div class="section-title">EDUCATION</div>
+            <div class="education-block">
+                <div class="education-item">
+                    <div class="year">2016-2018</div>
+                    <ul>
+                        <li>Mathayomwatsing school</li>
+                    </ul>
+                </div>
+                <div class="education-item">
+                    <div class="year">2018-2021</div>
+                    <ul>
+                        <li>Rajdamnern Technological College<br><b>- Business Computing</b></li>
+                    </ul>
+                </div>
+                <div class="education-item">
+                    <div class="year">2023-2026</div>
+                    <ul>
+                        <li>Thonburi University<br><b>- Digital Media</b></li>
+                    </ul>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- Skill & Soft Skill -->
+            <div class="section-title">SKILL & SOFT SKILL</div>
+            <div class="skills-grid">
+                <ul>
+                    <li>ถ่ายรูป/วิดีโอ</li>
+                    <li>โปรแกรม Adobe</li>
+                    <li>Microsoft</li>
+                    <li>Davinci</li>
+                    <li>Capcut</li>
+                </ul>
+                <ul>
+                    <li>ทำงานเป็นทีม</li>
+                    <li>อารมณ์</li>
+                    <li>ตรงต่อเวลา</li>
+                    <li>การแก้ปัญหา</li>
+                    <li>ควบคุมอารมณ์</li>
+                    <li>การสื่อสาร</li>
+                    <li>มีความรับผิดชอบ</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+            <!-- About Me -->
+            <div class="section-title">ABOUT ME</div>
+            <p class="about-text">
+                ผมสำเร็จการศึกษาด้านดิจิทัลมีเดีย มีความตั้งใจในการเรียนรู้และสามารถปรับตัวเข้ากับสภาพแวดล้อมใหม่ ๆ ได้ดี ผมชื่นชอบการถ่ายภาพวิดีโอ กราฟิก ตัดต่อสายงานที่เกี่ยวกับดิจิทัลมีเดีย และพัฒนาทักษะของตนเองอย่างต่อเนื่อง เป็นคนมีความรับผิดชอบ สามารถทำงานได้ทั้งแบบอิสระและการทำงานร่วมกับทีม รวมถึงสามารถบริหารจัดการเวลาได้อย่างมีประสิทธิภาพ
+            </p>
+
+            <!-- Project -->
+            <div class="section-title">PROJECT</div>
+            <table class="project-table">
+                <tr>
+                    <td class="year-col">2020</td>
+                    <td>ได้ผลิต ภาษา C++ ผลิตหุ่นยนต์เพื่อให้สามารถขยับได้</td>
+                </tr>
+                <tr>
+                    <td class="year-col">2021</td>
+                    <td>ได้รู้ออกกองถ่าย ในตำแหน่ง Sound Engineer</td>
+                </tr>
+                <tr>
+                    <td class="year-col" style="vertical-align: top;">2024 - 2025</td>
+                    <td>
+                        ได้ผลิตบอร์ดเกมพร้อมกระดานและการ์ดเกมเป็นผู้กำกับผลิตโฆษณาโปรโมท มหาวิทยาลัย<br>
+                        ได้ผลิตบรรจุภัณฑ์ไอติม
+                    </td>
+                </tr>
+                <tr>
+                    <td class="year-col">2025 - 2026</td>
+                    <td>ได้ผลิต MV สารคดี/วาไรตี้ และหนังสั้น</td>
+                </tr>
+            </table>
+
+            <!-- Work Experience -->
+            <div class="section-title">WORK EXPERIENCE</div>
+            
+            <div class="job-block">
+                <div class="job-title">siam namnueng | 2019 - 2021</div>
+                <div class="job-role">พนักงานพาร์ทไทม์ พนักงานเสิร์ฟ / พ่อครัว</div>
+                <ul>
+                    <li>จัดเตรียมของที่ต้องใช้ภายในวันต่อวัน</li>
+                    <li>ทำอาหารจัดจาน / เก็บโต๊ะ / ล้างจาน</li>
+                </ul>
+            </div>
+
+            <div class
